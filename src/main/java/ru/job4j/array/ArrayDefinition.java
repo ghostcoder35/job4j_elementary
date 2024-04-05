@@ -14,7 +14,7 @@ public class ArrayDefinition {
         names[1] = "Lars Ulrich";
         names[2] = "Kirk Hammett";
         names[3] = "Jason Newsted";
-        System.out.println("Состав группы Metallica (1986-2001):  "
+        System.out.println("Состав группы Metallica (1986-2001): "
                 + names[0] + ", " + names[1] + ", "
                 + names[2] + ", " + names[3]);
     }
