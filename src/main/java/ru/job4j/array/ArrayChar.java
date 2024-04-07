@@ -5,8 +5,8 @@ public class ArrayChar {
     public static boolean startsWith(char[] word, char[] prefix) {
         boolean result = true;
         for (int i = 0; i < prefix.length; i++) {
-            result = word[i] == prefix[i];
-            if (!result) {
+            if (word[i] != prefix[i]) {
+                result = false;
                 break;
             }
         }
