@@ -19,8 +19,8 @@ public class SimpleStringEncoder {
     }
 
     public static String sumValue(char symbol, int counter) {
-           String result = "";
-           result = counter == 1 ? result + symbol : result + symbol + counter;
-           return  result;
+        String result = "";
+        result = counter == 1 ? result + symbol : result + symbol + counter;
+        return  result;
     }
 }
