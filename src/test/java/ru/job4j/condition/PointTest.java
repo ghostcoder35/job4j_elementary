@@ -39,4 +39,13 @@ class PointTest {
         double output = a.distance(b);
         assertThat(output).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void when123to132then1dot41() {
+        double expected = 1.41;
+        Point a = new Point(1, 2, 3);
+        Point b = new Point(1, 3, 2);
+        double output = a.distance3d(b);
+        assertThat(output).isEqualTo(expected, withPrecision(0.01));
+    }
 }
